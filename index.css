@@ -1,0 +1,210 @@
+body{
+    background-color: rgba(0, 0, 0, 0.89);
+    margin: 0;
+    padding: 0;
+  }
+  a.l{
+    display: block;
+    color: Black;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    float: left;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  nav{
+    list-style-type: none;
+    height: 39px;
+    border: 1px solid #e7e7e7;
+    background-color: #e9e7e7;
+    overflow: hidden;
+  }
+  a.l:hover:not(.active){
+    background-color:#ddd;
+  }
+  #logo{
+    height: 35px;
+    width: 35px;
+    float:left;
+    cursor: no-drop;
+    margin-left: 4px;
+    margin-top: 2px;
+    
+  }
+  .Character{
+    float: right;
+   margin-top: 2%;
+    width: 40%;
+   
+  }
+  .Intro
+{
+  margin: 8%;
+  font-size: x-large;
+  color: #ebf64f;
+}
+dd{
+
+  font-size: large;
+  color: rgba(255, 15, 195, 0.735);
+  
+  
+}
+dt{
+  font-size:xxx-large;
+  color: rgb(0, 255, 208);
+}
+
+
+.btn{
+  margin: 10%;
+  margin-top: 0;
+}
+
+.email-btn {
+  display: inline-block;
+  padding: 2% 3%;
+  background-color: #0e808a;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+
+}
+
+.email-btn:hover {
+  background-color: #d66c20;
+  
+ 
+}
+.download-btn{
+  text-decoration: none;
+  display: inline-block;
+  padding: 2% 3%;
+  background-color: #06b434;
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  border: none;
+  margin-left: 9%;
+}
+
+.download-btn:hover{
+  background-color: #d66c20;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Section */
+
+#contact {
+  max-width: 600px;
+ margin-top: 50px;
+
+  padding: 10%;
+  padding-top: 5px;
+  margin-left: 10px;
+
+  
+  
+}
+
+#contact h1 {
+  text-align: center;
+ padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(0, 255, 255);
+  color: rgb(0, 0, 0);
+  
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+ 
+  color: #00e1ff;
+  
+}
+
+
+form label {
+  margin-top: 20px;
+  text-align: left;
+}
+
+form input, form textarea, form button {
+  padding: 10px;
+  margin-top: 2px;
+  border: 1px solid #80ff00;
+  border-radius: 5px;
+  
+}
+
+form button {
+  background: #ff06de;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: #ff6a00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+}
+p.footer{
+  margin: 1%;
+}
+
+
